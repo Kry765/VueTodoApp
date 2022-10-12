@@ -28,7 +28,9 @@
 			<div class="welcomepage-header">
 				<h1 class="all-header-h1">interactive task scheduler</h1>
 				<p>Start your Good Morning with a plan</p>
-				<input type="button" class="welcomepage-register-btn" value="get started" />
+				<router-link to="register"
+					><input type="button" class="welcomepage-register-btn" value="get started"
+				/></router-link>
 			</div>
 		</div>
 	</header>
