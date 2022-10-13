@@ -22,7 +22,7 @@
 			<div class="welcomepage-shadow-background"></div>
 			<!--MOVING ARROW-->
 			<div class="down-angle">
-				<i class="fa-sharp fa-solid fa-angle-down"></i>
+				<i class="fa-sharp fa-solid fa-angle-down arrow-down"></i>
 			</div>
 			<!--MOVING ARROW-->
 			<div class="welcomepage-header">
@@ -39,8 +39,8 @@
 		<section>
 			<div class="center-items section-aboutus" id="aboutus">
 				<div class="text-center">
-					<h1 class="all-header-h1">About Us</h1>
-					<div class="mobile-center-items center-items">
+					<h1 class="all-header-h1" v-motion-slide-visible-top>About Us</h1>
+					<div class="mobile-center-items center-items" v-motion-slide-visible-top>
 						<p class="welcomepage-aboutus-space">
 							We are a young team that helps each user prepare a list of tasks regardless of the age of the user
 						</p>
@@ -53,11 +53,11 @@
 			<div class="center-items goals" id="goals">
 				<div>
 					<div class="text-center">
-						<h1 class="all-header-h1">Goals</h1>
+						<h1 class="all-header-h1" v-motion-slide-visible-top>Goals</h1>
 					</div>
 					<div>
 						<div class="center-items mobile-goals">
-							<div class="text-center mobile-center-items goals-card">
+							<div class="text-center mobile-center-items goals-card" v-motion-slide-visible-top>
 								<i class="fa-solid fa-fire about-icon"></i>
 								<p>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit amet id fugit qui libero similique.
@@ -65,7 +65,7 @@
 									obcaecati.
 								</p>
 							</div>
-							<div class="text-center mobile-center-items goals-card">
+							<div class="text-center mobile-center-items goals-card" v-motion-slide-visible-top>
 								<i class="fa-regular fa-calendar-check about-icon"></i>
 								<p>
 									Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit amet id fugit qui libero similique.
@@ -73,7 +73,7 @@
 									obcaecati.
 								</p>
 							</div>
-							<div class="text-center mobile-center-items">
+							<div class="text-center mobile-center-items" v-motion-slide-visible-top>
 								<i class="fa-solid fa-person-walking-with-cane about-icon"></i>
 								<p>
 									Lorem, ipsum dolor sit amet consectetur adipisicing elit. Delectus, deserunt ad voluptate deleniti
@@ -90,16 +90,16 @@
 	<footer>
 		<div class="center-items section-contact">
 			<div id="contact">
-				<h1 class="text-center all-header-h1">Contact us</h1>
+				<h1 class="text-center all-header-h1" v-motion-slide-visible-top>Contact us</h1>
 				<p class="text-center contact-h1-p">You have more question? Send messeage</p>
 				<div class="right-items">
-					<div>
+					<div v-motion-slide-visible-top>
 						<input class="radius-input" type="text" placeholder="E-mail" />
 						<br />
 						<textarea class="radius-input textarea-input" placeholder="Your messeage"></textarea>
 						<input type="button" class="welcomepage-register-btn contact-btn" value="send" />
 					</div>
-					<div>
+					<div v-motion-slide-visible-top>
 						<p><i class="fa-solid fa-envelope contact-space"> </i>krzysztof.kleka@poczta.onet.pl</p>
 						<p><i class="fa-brands fa-facebook-messenger contact-space"></i>Krzysztof Klęka</p>
 						<p><i class="fa-brands fa-discord contact-space"></i>Kry765#5652</p>
@@ -256,7 +256,7 @@ $light-text-color: #dff6ff;
 .section-aboutus {
 	background-color: #1363df;
 	color: $light-text-color;
-	height: 100vh;
+	height: 120vh;
 }
 .welcomepage-aboutus-space {
 	margin: 20px 30px;
@@ -267,7 +267,7 @@ $light-text-color: #dff6ff;
 .goals {
 	background-color: #333;
 	color: $light-text-color;
-	height: 100vh;
+	height: 120vh;
 }
 
 /*SECTION - CONTACT*/
