@@ -3710,6 +3710,11 @@
   "resolved" "https://registry.npmjs.org/fs.realpath/-/fs.realpath-1.0.0.tgz"
   "version" "1.0.0"
 
+"fullpage.js@^4.0.11":
+  "integrity" "sha512-2YWG9mIfUqAPz8eFPHsSq/rMWT5xv+2C6dxQ6bljj1m31MgvhWNU3r+sa5+Ds35QThyrL3uo9RUPCxolp3SjuQ=="
+  "resolved" "https://registry.npmjs.org/fullpage.js/-/fullpage.js-4.0.11.tgz"
+  "version" "4.0.11"
+
 "function-bind@^1.1.1":
   "integrity" "sha512-yIovAzMX49sF8Yl58fSCWJ5svSLuaibPxXQJFLmBObTuCr0Mf1KiPopGM9NiFjiYBCbfaa2Fh6breQ6ANVTI0A=="
   "resolved" "https://registry.npmjs.org/function-bind/-/function-bind-1.1.1.tgz"
@@ -6379,6 +6384,13 @@
     "lodash" "^4.17.21"
     "semver" "^7.3.5"
 
+"vue-fullpage.js@^0.2.7":
+  "integrity" "sha512-DJemlKWi0gVWrq7MoBymq0EYftf7JKZgqndb+EXHBRtPpB0BkvrdFzdT/e7nDzekB4pF+9B/lP6u0rYY5S3MVg=="
+  "resolved" "https://registry.npmjs.org/vue-fullpage.js/-/vue-fullpage.js-0.2.7.tgz"
+  "version" "0.2.7"
+  dependencies:
+    "fullpage.js" "^4.0.11"
+
 "vue-hot-reload-api@^2.3.0":
   "integrity" "sha512-BXq3jwIagosjgNVae6tkHzzIk6a8MHFtzAdwhnV5VlvPTFxDCvIttgSiHWjdGoTJvXtmRu5HacExfdarRcFhog=="
   "resolved" "https://registry.npmjs.org/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz"
@@ -6413,7 +6425,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@*", "vue@^2 || ^3.2.13", "vue@^2.0.0 || >=3.0.0-rc.0", "vue@^2.6.0 || ^3.2.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.13", "vue@3.2.40":
+"vue@*", "vue@^2 || ^3.2.13", "vue@^2.0.0 || >=3.0.0-rc.0", "vue@^2.6.0 || ^3.2.0", "vue@^3.0.0-0 || ^2.6.0", "vue@^3.2.0", "vue@^3.2.13", "vue@^3.2.26", "vue@3.2.40":
   "integrity" "sha512-1mGHulzUbl2Nk3pfvI5aXYYyJUs1nm4kyvuz38u4xlQkLUn1i2R7nDbI4TufECmY8v1qNBHYy62bCaM+3cHP2A=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.40.tgz"
   "version" "3.2.40"

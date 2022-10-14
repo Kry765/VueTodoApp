@@ -28,7 +28,9 @@
 // }
 </script>
 <style lang="scss">
-* {
+*,
+*::before,
+*::after {
 	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
@@ -36,5 +38,9 @@
 
 body {
 	font-family: 'Red Hat Display', sans-serif;
+}
+
+html {
+	scroll-behavior: smooth;
 }
 </style>

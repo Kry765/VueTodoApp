@@ -16,6 +16,7 @@
 			</ul>
 		</div>
 	</nav>
+
 	<!--START HOME-->
 	<header>
 		<div class="welcomepage-background center-items" id="home">
@@ -53,7 +54,7 @@
 			<div class="center-items goals" id="goals">
 				<div>
 					<div class="text-center">
-						<h1 class="all-header-h1" v-motion-slide-visible-top>Goals</h1>
+						<h1 class="all-header-h1">Goals</h1>
 					</div>
 					<div>
 						<div class="center-items mobile-goals">
@@ -96,8 +97,10 @@
 					<div v-motion-slide-visible-top>
 						<input class="radius-input" type="text" placeholder="E-mail" />
 						<br />
-						<textarea class="radius-input textarea-input" placeholder="Your messeage"></textarea>
-						<input type="button" class="welcomepage-register-btn contact-btn" value="send" />
+						<textarea class="radius-input textarea-input" placeholder="Your message"></textarea>
+						<div class="center-items">
+							<input type="button" class="welcomepage-register-btn contact-btn" value="send" />
+						</div>
 					</div>
 					<div v-motion-slide-visible-top>
 						<p><i class="fa-solid fa-envelope contact-space"> </i>krzysztof.kleka@poczta.onet.pl</p>
@@ -106,13 +109,6 @@
 						<p><i class="fa-solid fa-mobile-screen-button contact-space"></i> 123 456 789</p>
 						<p><i class="fa-brands fa-github contact-space"></i>Kry765</p>
 					</div>
-					<!-- <div>
-					<a href="#"><li>home</li></a>
-					<a href="#"><li>register</li></a>
-					<a href="#"><li>about us</li></a>
-					<a href="#"><li>contact us</li></a>
-					<a href="#"><li>log in</li></a>
-				</div> -->
 				</div>
 				<p class="text-center">&Copy All right reserved</p>
 			</div>
@@ -300,14 +296,13 @@ $light-text-color: #dff6ff;
 	min-height: 40vh;
 }
 
-.contact-btn {
-	display: block;
-	position: relative;
-	left: 50%;
-}
-
 @media only screen and (max-width: 768px) {
 	/*OTHER - MOBILE STYLE*/
+
+	.contact-btn {
+		display: block;
+		text-align: center;
+	}
 	.mobile-center-items {
 		display: block;
 	}
