@@ -22,6 +22,8 @@ const routes = [
 		name: 'DashboardPage',
 		component: () => import('../views/DashboardPage'),
 	},
+
+	
 ]
 
 const router = createRouter({

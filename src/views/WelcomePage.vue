@@ -6,17 +6,14 @@
 			<i class="fa-solid fa-bars burger-icon"></i>
 			<ul class="items-top-menu">
 				<a href="#home"><li>home</li></a>
-				<a
-					><li><router-link to="/register">Register</router-link></li></a
-				>
-				<a href="#aboutus"><li>about us</li></a>
-				<a href="#goals"><li>goals</li></a>
-				<a href="#contact"><li>contact us</li></a>
-				<a><li>log in</li></a>
+				<a><router-link to="/register">Register</router-link></a>
+				<a href="#aboutus">about us</a>
+				<a href="#goals">goals</a>
+				<a href="#contact">contact us</a>
+				<a><router-link to="/login">log in</router-link></a>
 			</ul>
 		</div>
 	</nav>
-
 	<!--START HOME-->
 	<header>
 		<div class="welcomepage-background center-items" id="home">
