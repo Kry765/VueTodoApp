@@ -35,7 +35,7 @@
           <label for="terms">terms of service</label>
         </div>
         <button class="submit" @click="Register">Register</button>
-        <p>Have an account? <router-link to="/register">Login</router-link></p>
+        <p>Have an account? <router-link to="/login">Login</router-link></p>
       </form>
     </section>
   </main>
